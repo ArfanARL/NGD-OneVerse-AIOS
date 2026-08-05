@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="NGD.OneVerse.Api/NGD.OneVerse.Api.csproj" />
+  <Project Path="NGD.OneVerse.Application/NGD.OneVerse.Application.csproj" />
+  <Project Path="NGD.OneVerse.Domain/NGD.OneVerse.Domain.csproj" />
+  <Project Path="NGD.OneVerse.Infrastructure/NGD.OneVerse.Infrastructure.csproj" />
+  <Project Path="NGD.OneVerse.SharedKernel/NGD.OneVerse.SharedKernel.csproj" />
+  <Project Path="NGD.OneVerse.Tests/NGD.OneVerse.Tests.csproj" />
+</Solution>

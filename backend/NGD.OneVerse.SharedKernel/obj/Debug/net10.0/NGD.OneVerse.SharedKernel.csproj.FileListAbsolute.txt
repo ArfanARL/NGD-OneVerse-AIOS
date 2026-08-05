@@ -1,0 +1,12 @@
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\bin\Debug\net10.0\NGD.OneVerse.SharedKernel.deps.json
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\bin\Debug\net10.0\NGD.OneVerse.SharedKernel.dll
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\bin\Debug\net10.0\NGD.OneVerse.SharedKernel.pdb
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\NGD.OneVerse.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\NGD.OneVerse.SharedKernel.AssemblyInfoInputs.cache
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\NGD.OneVerse.SharedKernel.AssemblyInfo.cs
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\NGD.OneVerse.SharedKernel.csproj.CoreCompileInputs.cache
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\NGD.OneVerse.SharedKernel.sourcelink.json
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\NGD.OneVerse.SharedKernel.dll
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\refint\NGD.OneVerse.SharedKernel.dll
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\NGD.OneVerse.SharedKernel.pdb
+D:\Projects\NGD-OneVerse-AIOS\backend\NGD.OneVerse.SharedKernel\obj\Debug\net10.0\ref\NGD.OneVerse.SharedKernel.dll
