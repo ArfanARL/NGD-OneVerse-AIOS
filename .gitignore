@@ -1,0 +1,47 @@
+# Build folders
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# User Secrets
+**/secrets.json
+
+# Environment files
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Frontend
+.next/
+out/
+
+# Docker
+docker-data/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Test results
+TestResults/
+
+# Coverage
+coverage/
+
+# PostgreSQL
+*.backup
