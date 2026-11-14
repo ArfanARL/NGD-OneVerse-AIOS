@@ -1,0 +1,83 @@
+{
+  "project": "NGD OneVerse AIOS",
+  "core": "NET10",
+  "aiSidecar": "Python FastAPI",
+  "modules": [
+    [
+      "IAM",
+      1,
+      "users roles permissions role_permissions user_roles auth_sessions"
+    ],
+    [
+      "Organization",
+      1,
+      "departments designations business_units locations org_hierarchy"
+    ],
+    [
+      "EmployeeMaster",
+      1,
+      "employees employee_documents employee_bank_details employee_emergency_contacts employee_education employee_experience"
+    ],
+    [
+      "Recruitment",
+      2,
+      "job_requisitions job_postings candidates candidate_resumes applications interview_rounds interview_panel interview_feedback offers"
+    ],
+    [
+      "Onboarding",
+      3,
+      "induction_programs induction_checklist_items employee_induction_progress onboarding_documents"
+    ],
+    [
+      "Training",
+      3,
+      "training_programs training_sessions training_enrollments training_attendance certifications skill_matrix"
+    ],
+    [
+      "Performance",
+      4,
+      "performance_cycles performance_reviews kpi_goals promotion_requests promotion_approvals"
+    ],
+    [
+      "AttendanceLeave",
+      5,
+      "attendance_logs leave_types leave_balances leave_requests holidays_calendar"
+    ],
+    [
+      "Payroll",
+      6,
+      "salary_structures employee_salary_components payroll_runs payslips allowances_deductions tax_configurations bank_payment_batches"
+    ],
+    [
+      "Workflow",
+      4,
+      "workflow_definitions workflow_instances workflow_approval_steps"
+    ],
+    [
+      "System",
+      7,
+      "notifications audit_logs system_settings document_repository"
+    ],
+    [
+      "RAG",
+      7,
+      "policy_documents policy_chunks policy_categories rag_query_logs"
+    ],
+    [
+      "AILogging",
+      7,
+      "llm_interaction_logs"
+    ]
+  ],
+  "aiFeatures": [
+    "resume_parsing",
+    "candidate_job_matching",
+    "explainable_shortlisting",
+    "interview_question_generation",
+    "skill_gap_analysis",
+    "attrition_risk_prediction",
+    "employee_policy_chatbot",
+    "payroll_anomaly_detection"
+  ],
+  "providerDefault": "lm_studio"
+}

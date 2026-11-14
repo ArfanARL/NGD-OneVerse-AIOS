@@ -1,0 +1,28 @@
+name: NGD OneVerse CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Restore
+        run: dotnet restore backend/NGD.OneVerse.slnx
+      - name: Build
+        run: dotnet build backend/NGD.OneVerse.slnx --no-restore --configuration Release
+      - name: Test
+        run: dotnet test backend/NGD.OneVerse.slnx --no-build --configuration Release
+      - name: Validate future module manifest
+        shell: pwsh
+        run: |
+          $m = Get-Content automation/docs/FUTURE_MODULE_MANIFEST.json -Raw | ConvertFrom-Json
+          if (-not $m.modules) { throw "Manifest is empty." }
+          Write-Host "Module definitions: $($m.modules.Count)"

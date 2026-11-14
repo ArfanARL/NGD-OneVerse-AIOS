@@ -1,4 +1,4 @@
-namespace NGD.OneVerse.Domain.Entities;
+﻿namespace NGD.OneVerse.Domain.Entities;
 
 public class User
 {
@@ -19,4 +19,7 @@ public class User
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     public DateTime? UpdatedAt { get; set; }
+
+    public ICollection<UserRole> UserRoles { get; set; } =
+        new List<UserRole>();
 }

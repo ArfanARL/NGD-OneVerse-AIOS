@@ -45,3 +45,11 @@ coverage/
 
 # PostgreSQL
 *.backup
+# Private local files (never publish)
+$token*
+Username*
+shell script.txt
+*.zip
+artifacts/
+automation/backups/
+.github/workflows/
